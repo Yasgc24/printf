@@ -5,7 +5,7 @@
  * Return: Pointer or NULL
  */
 
-int (*c_specifiers(const char *format))(va_list)
+int (*c_specifiers(const char *format1))(va_list)
 {
 print_t ch[] = {
 {"c", print_char},
@@ -16,7 +16,8 @@ print_t ch[] = {
 };
 int i;
 i = 0;
-while (ch[i].print != NULL && *(ch[i].print) != *ptr)
+while (ch[i].print != NULL && *(ch[i].print) != *format1)
 i++;
 return (ch[i].f);
 }
+
