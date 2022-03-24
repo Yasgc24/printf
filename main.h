@@ -6,7 +6,7 @@
 
 typedef struct print
 {
-char *ptr;
+char *print;
 int (*f)(va_list);
 } print_t;
 
