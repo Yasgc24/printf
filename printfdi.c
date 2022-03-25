@@ -16,7 +16,7 @@ unsigned int n;
 if (decimal < 0)
 {
 len += _putchar('-');
-n = integer * -1;
+n = decimal * -1;
 }
 else
 n = decimal;
