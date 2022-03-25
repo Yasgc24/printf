@@ -8,18 +8,18 @@
 
 int print_dec(va_list d)
 {
-int integer = va_arg(d, int);
+int decimal = va_arg(d, int);
 int x = 1;
 int len = 0;
 unsigned int n;
 
-if (integer < 0)
+if (decimal < 0)
 {
 len += _putchar('-');
 n = integer * -1;
 }
 else
-n = integer;
+n = decimal;
 
 while (n / x > 9)
 x *= 10;
