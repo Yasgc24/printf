@@ -8,7 +8,6 @@
 3. ### Secrets of “printf”
 4. ### Conclusion
 5. ### Collaboration
-
 ***
 ## Requirements
 
