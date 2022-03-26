@@ -1,4 +1,4 @@
-# Project printf
+# printf project
 ***
 ![printf](https://user-images.githubusercontent.com/98335124/160219522-1e97e727-4926-42f6-8e48-3835835c0dec.jpg)
 ***
@@ -29,3 +29,17 @@
 
 ## General-info
 "printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input (parsing).
+![Printf svg](https://user-images.githubusercontent.com/98335124/160220929-da2f5afd-c60b-4a68-9eef-53a07af6e796.png)
+***
+
+## Secrets of “printf”
+### Professor Don Colton - Brigham Young University Hawaii
+#### Background
+In the early days, computer programmers would write their own subroutines to read in and print out numbers. It is not terribly difficult, actually. Just allocate a character array to hold the result, divide the number by ten, keep the remainder, add x30 to it, and store it at the end of the array. Repeat the process until all the digits are found. Then print it. Too easy, right? But even though it was easy (for Einstein), it still took some effort. And what about error checking, and negative numbers? So the computer programmers brought forth libraries of prerecorded functions. And it was good. Eventually the most popular of these functions were canonized into membership in the “standard” libraries. Number printing was popular enough to gain this hallowed honor. This meant that programmers did not have to reinvent the number-printing subroutine again and again. It also meant that everybody’s favorite options tried to make it into the standard. Thus was printf born.
+#### Simple Printing
+In the most simple case, printf takes one argument: a string of characters to be printed. This string is composed of characters, each of which is printed exactly as it appears. So printf("xyz"); would simply print an x, then a y, and finally a z. This is not exactly “formatted” printing, but it is still the basis of what printf does.
+#### Format Specifications
+The real power of printf is when we are printing the contents of variables. Let’s take the format specifier %.
+##### Formatters
+![image](https://user-images.githubusercontent.com/98335124/160221678-d6473c9c-f6a6-4068-940a-9425d96e793f.png)
+#### 
