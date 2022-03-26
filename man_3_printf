@@ -1,0 +1,25 @@
+# NAME
+_printf
+
+# SYNOPSIS
+**printf**
+# DESCRIPTION
+**printf** "printf" is the name of one of the main C output functions, and stands for "printformatted".
+
+# OPTIONS
+**-h**
+: muestra ayuda del comando
+
+**-n** 
+: puedes especificar un nombre para decir Hola a esa persona. 
+# EXAMPLES
+**hola -n Isaac**
+: Muestra "Hola, Isaac!" y sale.
+# AUTHORS
+Escrito por Isaac de AT.
+
+# BUGS
+Reportar errores a <ejemplo@correo.es>
+
+# SEE ALSO
+Más información: <https://architecnologia.es/blog>
