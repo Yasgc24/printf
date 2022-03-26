@@ -1,4 +1,4 @@
-# Project printf
+# printf project
 ***
 ![printf](https://user-images.githubusercontent.com/98335124/160219522-1e97e727-4926-42f6-8e48-3835835c0dec.jpg)
 ***
@@ -40,4 +40,6 @@ In the early days, computer programmers would write their own subroutines to rea
 In the most simple case, printf takes one argument: a string of characters to be printed. This string is composed of characters, each of which is printed exactly as it appears. So printf("xyz"); would simply print an x, then a y, and finally a z. This is not exactly “formatted” printing, but it is still the basis of what printf does.
 #### Format Specifications
 The real power of printf is when we are printing the contents of variables. Let’s take the format specifier %.
+#####Formatters
 ![image](https://user-images.githubusercontent.com/98335124/160221678-d6473c9c-f6a6-4068-940a-9425d96e793f.png)
+#### 
