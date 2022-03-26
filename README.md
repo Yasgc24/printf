@@ -30,6 +30,8 @@
 ## General-info
 "printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input (parsing).
 ![Printf svg](https://user-images.githubusercontent.com/98335124/160220929-da2f5afd-c60b-4a68-9eef-53a07af6e796.png)
+### There are three basic output functions in C, these are:
+![3-s2 0-B9780340700143500475-u02-06-9780340700143](https://user-images.githubusercontent.com/98335124/160222378-1ae58d68-9661-4e9d-ba5c-e3dde81cf915.jpg)
 ***
 
 ## Secrets of “printf”
@@ -42,4 +44,14 @@ In the most simple case, printf takes one argument: a string of characters to be
 The real power of printf is when we are printing the contents of variables. Let’s take the format specifier %.
 ##### Formatters
 ![image](https://user-images.githubusercontent.com/98335124/160221678-d6473c9c-f6a6-4068-940a-9425d96e793f.png)
-#### 
+#### Designing The Perfect Spec
+If you are designing a printf format specifier, thefirst step is to decide what kind of a thing you are printing. If it is an integer, a float, a string, or a character, you will make different choices about which basic format to use.
+***
+
+## Conclusion
+The printf function is a powerful device for printing numbers and other things stored in variables. With this power there is a certain amount of complexity. Taken all at once, the complexity makes printf seem almost impossible to understand. But the complexity can be easily unfolded into simple features, including width, precision, signage, justification, and fill. By recognizing and understanding these features, printf will become a useful and friendly servant in your printing endeavors.
+***
+
+## Collaboration
+* Leidy Yasmin Girlado Castaño - 4537@holbertonschool.com
+* Jhoan David Vargas Velandia - 4523@holbertonschool.com
