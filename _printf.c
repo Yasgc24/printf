@@ -30,40 +30,40 @@ return (cs[i].f);
 int _printf(const char *format, ...)
 {
 va_list list;
-int a = 0, count = 0;
+int a, count = 0;
 int (*f)(va_list);
-
 if (format == NULL)
 return (-1);
-
 va_start(list, format);
-
-while (format[a] != '\0')
+for (a = 0; format[a]; a++)
 {
-if (format[a] == '%' && format[a + 1] == '\0')
+if (format[0] == '%' && format[1] == '\0')
+return (-1);
+if (format[a] == '%')
 {
-_putchar('%');
-count++;
-return (count);
-}
-else if (format[a] == '%' && format[a + 1] == '%')
+if (format[a + 1] == '%')
 {
-_putchar('%');
-a += 2;
-count++;
-}
-else if (format[a] == '%')
-{
-f = c_specifiers(&format[a + 1]);
-if (f != NULL)
-a += 2;
-count += f(list);
-}
-else
 _putchar(format[a]);
 a++;
 count++;
 }
+else
+{
+f = c_specifiers(&format[a + 1]);
+if (f != NULL)
+{
+count += f(list);
+a++;
+}
+else
+{
+_putchar(format[a]);
+count++; }}}
+else
+{
+_putchar(format[a]);
+count++;
+}}
 va_end(list);
 return (count);
 }
