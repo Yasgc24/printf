@@ -29,3 +29,4 @@
 
 ## General-info
 "printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input (parsing).
+![Printf svg](https://user-images.githubusercontent.com/98335124/160220929-da2f5afd-c60b-4a68-9eef-53a07af6e796.png)
