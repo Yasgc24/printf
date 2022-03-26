@@ -36,3 +36,8 @@
 ### Professor Don Colton - Brigham Young University Hawaii
 #### Background
 In the early days, computer programmers would write their own subroutines to read in and print out numbers. It is not terribly difficult, actually. Just allocate a character array to hold the result, divide the number by ten, keep the remainder, add x30 to it, and store it at the end of the array. Repeat the process until all the digits are found. Then print it. Too easy, right? But even though it was easy (for Einstein), it still took some effort. And what about error checking, and negative numbers? So the computer programmers brought forth libraries of prerecorded functions. And it was good. Eventually the most popular of these functions were canonized into membership in the “standard” libraries. Number printing was popular enough to gain this hallowed honor. This meant that programmers did not have to reinvent the number-printing subroutine again and again. It also meant that everybody’s favorite options tried to make it into the standard. Thus was printf born.
+#### Simple Printing
+In the most simple case, printf takes one argument: a string of characters to be printed. This string is composed of characters, each of which is printed exactly as it appears. So printf("xyz"); would simply print an x, then a y, and finally a z. This is not exactly “formatted” printing, but it is still the basis of what printf does.
+#### Format Specifications
+The real power of printf is when we are printing the contents of variables. Let’s take the format specifier %.
+![image](https://user-images.githubusercontent.com/98335124/160221678-d6473c9c-f6a6-4068-940a-9425d96e793f.png)
