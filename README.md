@@ -33,8 +33,6 @@
 ***
 
 ## Secrets of “printf”
-### Professor Don Colton
-Brigham Young University Hawaii
-
+### Professor Don Colton - Brigham Young University Hawaii
 #### Background
-
+In the early days, computer programmers would write their own subroutines to read in and print out numbers. It is not terribly difficult, actually. Just allocate a character array to hold the result, divide the number by ten, keep the remainder, add x30 to it, and store it at the end of the array. Repeat the process until all the digits are found. Then print it. Too easy, right? But even though it was easy (for Einstein), it still took some effort. And what about error checking, and negative numbers? So the computer programmers brought forth libraries of prerecorded functions. And it was good. Eventually the most popular of these functions were canonized into membership in the “standard” libraries. Number printing was popular enough to gain this hallowed honor. This meant that programmers did not have to reinvent the number-printing subroutine again and again. It also meant that everybody’s favorite options tried to make it into the standard. Thus was printf born.
